@@ -30,8 +30,8 @@
       <file leaf-file-name="class.contact-widget.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="853">
+              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -253,6 +253,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a404753d-4b7b-48ff-9036-d1b40796a27a" name="Default" comment="" />
@@ -260,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496773045208</updated>
-      <workItem from="1496773046547" duration="5886000" />
+      <workItem from="1496773046547" duration="6446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5886000" />
+    <option name="totallyTimeSpent" value="6446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -326,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="853">
+          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding />
         </state>
       </provider>

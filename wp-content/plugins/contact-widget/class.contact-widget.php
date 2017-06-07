@@ -38,5 +38,36 @@ class Contact_Widget extends WP_Widget{
     /*
     *   Backend Form
     */
+    public function form($instance){
 
+        if(isset($instance['title'])){
+            $title = $instance['title'];
+        }else{
+            $title = __('Ajax Contact Widget','text_domain');
+        }
+
+        $recipient = $instance['recipient'];
+        $subject = $instance['subject'];
+
+        ?>
+
+        <p>
+            <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title:', 'text_domain' ); ?></label>
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+        </p>
+        <p>
+            <label for="<?php echo esc_attr( $this->get_field_id( 'recipient' ) ); ?>"><?php esc_attr_e( 'Recipient:', 'text_domain' ); ?></label>
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'recipient' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'recipient' ) ); ?>" type="text" value="<?php echo esc_attr( $recipient ); ?>">
+        </p>
+        <p>
+            <label for="<?php echo esc_attr( $this->get_field_id( 'subject' ) ); ?>"><?php esc_attr_e( 'Subject:', 'text_domain' ); ?></label>
+            <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'subject' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'subject' ) ); ?>" type="text" value="<?php echo esc_attr( $subject ); ?>">
+        </p>
+
+        <?php
+    }
+
+    /*
+    *   Update
+    */
 }
