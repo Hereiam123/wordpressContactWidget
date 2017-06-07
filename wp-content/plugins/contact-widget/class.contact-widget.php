@@ -9,8 +9,8 @@ class Contact_Widget extends WP_Widget{
     public function __construct(){
         parent::__construct(
             'contact_widget', //Base ID
-            __('Ajax Contact Widget','text_domain');//Name
-            array('description'=>__('Ajax powered contact widget','text_domain'));
+            __('Ajax Contact Widget','text_domain'),//Name
+            array('description'=>__('Ajax powered contact widget','text_domain'))
         );
     }
 
@@ -36,7 +36,7 @@ class Contact_Widget extends WP_Widget{
     }
 
     /*
-    *   Backend Form
+    *   Backend Form Display
     */
     public function form($instance){
 
