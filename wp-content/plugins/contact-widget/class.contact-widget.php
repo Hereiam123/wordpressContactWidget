@@ -78,4 +78,37 @@ class Contact_Widget extends WP_Widget{
 
         return $instance;
     }
+
+    /*
+    * Display Contact Form
+    */
+    public function getForm($recipient,$subject){
+        $output='
+            <div id="form-messages"></div>
+            <form id="ajax-contact" method="post" action="'. plugins_url().'/contact-widget/mailer.php">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <br>
+                <input name="recipient" type="hidden" value="'.$recipient.'">
+                <input name="subject" type="hidden" value="'.$subject.'">
+                <div class="field">
+                    <input name="contact_submit" type="submit" value="Send">
+                </div>
+            </form>
+        ';
+
+        return $output;
+    }
 }
