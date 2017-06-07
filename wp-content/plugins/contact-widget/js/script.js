@@ -14,8 +14,8 @@ jQuery(document).ready(function(){
         var formData=jQuery(form).serialize();
         //Submit with Ajax
         jQuery.ajax({
-            type: 'POST,
-            url: jQuery(form).attr('action');
+            type: 'POST',
+            url: jQuery(form).attr('action'),
             data: formData
         }).done(function(response){
             //Message success
@@ -29,14 +29,14 @@ jQuery(document).ready(function(){
             jQuery('#name').val('');
             jQuery('#email').val('');
             jQuery('#message').val('');
-        }).fail(function(error){
+        }).fail(function(data){
             //Message success
             jQuery(formMessages).removeClass('success');
             jQuery(formMessages).removeClass('error');
 
             //Set message text
-            if(error.responseText != '') {
-                jQuery(formMessages).text(error.responseText);
+            if(data.responseText != '') {
+                jQuery(formMessages).text(data.responseText);
             }
             else{
                 jQuery(formMessages).text('Unknown Error');
