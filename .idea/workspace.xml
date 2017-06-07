@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a404753d-4b7b-48ff-9036-d1b40796a27a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-widget/js/script.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-widget/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,14 +30,14 @@
       <file leaf-file-name="class.contact-widget.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+            <state relative-caret-position="1360">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="816">
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -68,8 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-widget/contact-widget.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-widget/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php" />
       </list>
     </option>
   </component>
@@ -266,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496773045208</updated>
-      <workItem from="1496773046547" duration="8469000" />
+      <workItem from="1496773046547" duration="9717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8469000" />
+    <option name="totallyTimeSpent" value="9717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -306,14 +305,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/contact-widget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -322,10 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/class.contact-widget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="1360">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -334,6 +325,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-widget/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
