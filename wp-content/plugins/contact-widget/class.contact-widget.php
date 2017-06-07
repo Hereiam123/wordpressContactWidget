@@ -68,6 +68,14 @@ class Contact_Widget extends WP_Widget{
     }
 
     /*
-    *   Update
+    *   Update Method
     */
+    public function update($new_instance,$old_instance){
+        $instance = array();
+        $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+        $instance['recipient'] = ( ! empty( $new_instance['recipient'] ) ) ? strip_tags( $new_instance['recipient'] ) : '';
+        $instance['subject'] = ( ! empty( $new_instance['subject'] ) ) ? strip_tags( $new_instance['subject'] ) : '';
+
+        return $instance;
+    }
 }
